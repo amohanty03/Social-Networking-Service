@@ -1,0 +1,74 @@
+csce662@ankitm:~/MP2.2$ new synchronizer registered of type: synchronizer and serverid: 6 of clusterID: 3
+master sync found in cluster 3
+master sync found so add slave sync in cluster: 3
+new synchronizer registered of type: synchronizer and serverid: 5 of clusterID: 2
+master sync found in cluster 2
+master sync found so add slave sync in cluster: 2
+This synchronizer is registered as SLAVE.
+new synchronizer registered of type: synchronizer and serverid: 4 of clusterID: 1
+master sync found in cluster 1
+master sync found so add slave sync in cluster: 1
+This synchronizer is registered as SLAVE.
+This synchronizer is registered as SLAVE.
+Server listening on 127.0.0.1:9006 with synchID: 6
+Server listening on 127.0.0.1:9005 with synchID: 5
+Server listening on 127.0.0.1:9004 with synchID: 4
+Got GetServer for clientID: 1
+Got to findMasterServer with serverID: 1
+Checking serverID: 1 clusterID: 1 isMaster: 1 type: 
+curindex: 0 clusterId: 1
+first req client
+Added user: 1 to ./cluster_1/1/all_users.txt
+11
+Got to findServer with serverID: 1
+Checking serverID: 1 clusterID: 1 isMaster: 1 type: 
+Check master first time
+Got GetSlave for clientID: 1
+node->serverID: 1 cluster id: 1 master: 1
+node->serverID: 2 cluster id: 1 master: 0
+Found Slave: localhost:10003
+Added user to slave: 1 to ./cluster_1/0/all_users.txt
+first req client
+Added user: 1 to ./cluster_1/2/all_users.txt
+12
+Got to findServer with serverID: 2
+Checking serverID: 1 clusterID: 2 isMaster: 1 type: 
+Checking serverID: 2 clusterID: 2 isMaster: 0 type: 
+Got GetServer for clientID: 2
+Got to findMasterServer with serverID: 2
+Checking serverID: 1 clusterID: 2 isMaster: 1 type: 
+curindex: 0 clusterId: 2
+first req client
+Added user: 2 to ./cluster_2/1/all_users.txt
+21
+Got to findServer with serverID: 1
+Checking serverID: 1 clusterID: 1 isMaster: 1 type: 
+Check master first time
+Got GetSlave for clientID: 2
+node->serverID: 1 cluster id: 2 master: 1
+node->serverID: 2 cluster id: 2 master: 0
+Found Slave: localhost:10004
+Added user to slave: 2 to ./cluster_2/0/all_users.txt
+first req client
+Added user: 2 to ./cluster_2/2/all_users.txt
+22
+Got to findServer with serverID: 2
+Checking serverID: 1 clusterID: 2 isMaster: 1 type: 
+Checking serverID: 2 clusterID: 2 isMaster: 0 type: 
+setting the client's values in the DB to show that it is down!
+Got to findServer with serverID: 1
+Checking serverID: 1 clusterID: 1 isMaster: 1 type: 
+Got to findServer with serverID: 1
+Checking serverID: 1 clusterID: 1 isMaster: 1 type: 
+Got to findServer with serverID: 1
+Checking serverID: 1 clusterID: 1 isMaster: 1 type: 
+Got to findServer with serverID: 2
+Checking serverID: 1 clusterID: 2 isMaster: 1 type: 
+Checking serverID: 2 clusterID: 2 isMaster: 0 type: 
+Got to findServer with serverID: 2
+Checking serverID: 1 clusterID: 2 isMaster: 1 type: 
+Checking serverID: 2 clusterID: 2 isMaster: 0 type: 
+Got to findServer with serverID: 2
+Checking serverID: 1 clusterID: 2 isMaster: 1 type: 
+Checking serverID: 2 clusterID: 2 isMaster: 0 type: 
+setting the client's values in the DB to show that it is down!
